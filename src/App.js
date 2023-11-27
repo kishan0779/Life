@@ -1,24 +1,25 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Home from './Home/Home';
+import HomeWatch from './Home/HomeWatch';
+import Lilttle from './Home/Lilttle';
+import News from './Home/News';
+import Photo from './Home/Photo';
+import Unlock from './Home/Unlock';
+import WatchFeatures from './Home/WatchFeatures';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Home/>
+      <HomeWatch/>
+      <Lilttle/>
+      <WatchFeatures/>
+      <Photo/>  
+      <News/>
+      <Unlock/>
     </div>
+      
   );
 }
 
